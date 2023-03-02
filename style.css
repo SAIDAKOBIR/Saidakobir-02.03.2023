@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@200;300;400;500&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.048);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.contener{
+    font-family: Rubik;
+}
+.page1{
+    
+}
+.navbar{
+    padding: 1% 10%;
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-lll{
+    font-size: 200%;
+    font-weight: 600;
+    margin-right: 12%;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu{
+    margin-right: 12%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-menu li{
+    margin: 0 3%;
+    font-size: 120%;
+    opacity: 0.75;
+}
+.language{
+    border: 0;
+    padding: 1% 1.5%;
+    font-size: 110%;
+    background-color: #1FB176;
+    border-radius: 5px;
+    color: white;
+}
+@media (max-width:767px) {
+    .nav-menu{
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .nav-lll{
+        font-size: 150%;
+        
+    }
+    .nav-menu li{
+        margin: 3% 0%;
+        font-size: 100%;
+    }
+    .lilili{
+        font-size: 130%;
+        opacity: 1;
+        font-weight: 500;
+    }
+    .language{
+        padding:  1% 1.5%;
+        font-size: 120%;
+    }
+}
+
+.page1a{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 5%;
+    margin: 0 10%;
+}
+.img-page1{
+  
+}
+.text-page1{
+    width: 50%;
+}
+.img2{
+    order: 2;
+}
+.text2{
+    order: 1;
+    
+}
+.button1{
+    padding: 3% 10%;
+    background-color: #1FB176;
+    color: white;
+    font-size: 110%;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.button1:hover{
+    background-color:rgba(0, 68, 255, 0.233);
+    color: black;
+}
+.page3{
+    margin: 0 10%;
+    padding-top: 5%;
+}
+.clut{
+    display: flex;
+    justify-content: space-between;
+}
+.boshka{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    align-items: flex-start;
+}
+.boshka-text{
+    width: 50%;
+    line-height: 1.5;
+}
+.boshka-img{
+    display: flex;
+    justify-content: center;
+}
+.vopros{
+    margin: 10%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+}
+.button8{
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background-color: #1FB176;
+    padding: 5% 20%;
+}
+.navbarr{
+    padding-bottom: 10%;
+    margin: 0 10%;
+    display: flex; 
+    justify-content: space-between;
+    line-height: 2;
+}
+@media (max-width:767px) {
+    .page1a{
+        padding-top: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5%;
+    }
+    .button1{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .wrapp{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .text-page1{
+        width: 100%;
+        font-size: 65%;
+    }
+    .text2 p{
+        line-height:1;
+    }
+    .img2{
+        margin-bottom: 5%;
+        margin-top: -20%;
+    }
+    .bolo{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .text-page1 img{
+        width: 12px;
+        height: 12px;
+    }
+    .page3{
+        margin: 0 10%;
+        font-size: 68%;
+        margin: 0 5%;
+        padding-top: 20%;
+    }
+    .clut{
+        display: block;
+        flex-wrap: wrap;
+    }
+    .boshka{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .boshka-text{
+        width: 100%;
+        font-size: 140%;
+        margin-top: 10%;
+        margin-bottom: 0;
+        line-height: 0.5;
+    }
+    .tiin{
+        margin-top: -10%;
+    }
+    .boshka-img{
+        padding: 5% 0;
+    }
+    .vopros{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 10% 5%;
+        width: 80%;
+    }
+    
+    .vopros p{
+        width: 150%;
+        padding-bottom: 5%;
+    }
+    .wwww{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .button8{
+        width: 100%;
+        margin-right: -80%;
+    }
+    
+   .navbarr{
+    display: block;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    line-height: 1.5;
+   }
+   .navbarr .finish-menu1{
+    padding-left: 10%;
+   }
+}
+
